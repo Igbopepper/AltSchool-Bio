@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Media Page</title>
+</head>
+
+<body>
+    <header>
+        <h1>About Me</h1>
+    </header>
+    <!-- Responsive Picture -->
+    <section>
+        <h2>My Image</h2>
+        <picture>
+            <!-- Mobile -->
+            <source srcset="./Asset HomeWrk/images/me-small.jpg" media="(max-width: 200px)">
+            <!-- Tablet -->
+            <source srcset="./Asset HomeWrk/images/me-medium.jpg" media="(max-width: 300px)">
+            <!-- Laptop/Desktop -->
+            <source srcset="./Asset HomeWrk/images/me-large.jpg" media="(min-width: 333px)">
+            <img src="./Asset HomeWrk/images/Passport%20picture%20-min.jpg" alt="A portrait of Jennifer Ahize"
+             style="width: 300px; height: 300px;" />
+            </p>
+        </picture>
+    </section>
+
+    <!-- Audio -->
+    <section>
+        <h2>Audio Message</h2>
+        <p>Listen to a short audio introduction from me:</p>
+        <audio controls>
+            <source src="./Asset HomeWrk/audio/Alt  School Audio.m4a" type="audio/ogg">
+            <source src="./Asset HomeWrk/audio/Alt  School Audio.m4a" type="audio/mpeg">
+        </audio>
+    </section>
+
+    <!-- Iframe (External Embed) -->
+    <section>
+        <h2>Embedded Inspiration</h2>
+        <p>Hosted Positioning oneself as a Global Talent:</p>
+        <iframe width="360" height="215" src="https://www.youtube.com/embed/P_k_trV_KDA
+        " title="YouTube video"
+            frameborder="0" allowfullscreen>
+        </iframe>
+    </section>
+
+    <!-- PDF Embed -->
+    <section>
+        <h2>Career History</h2>
+        <p>Here is an embedded PDF of my CV:</p>
+        <embed src="./Asset HomeWrk/pdf/cv alt.pdf" type="application/pdf" width="200" height="300">
+    </section>
+
+    <footer>
+        <p><a href="index.html">Homepage</a></p>
+    </footer>
+</body>
+
+</html>
